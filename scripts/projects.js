@@ -11,7 +11,7 @@ const allProjects = ["Guess The Number", "The Keep", "React Chat Room", "Capston
 const guessTheNumber = (
     "<div class='project'>" +
     "<h2>Guess the Number</h2>" +
-    "<img src='./assets/projects/guess-the-number.png' width='600' alt='guess the number'>" +
+    "<img src='assets/projects/guess-the-number.png' width='600' alt='guess the number'>" +
     "<ul>" + 
     "<li><p>A 0-100 guessing game that pits the computer against the player or vice versa </p></li>" +
     "<li><p>Made with JavaScript and the Node.js runtime</p></li>" +
@@ -25,7 +25,7 @@ const guessTheNumber = (
 const theKeep = (
     "<div class='project'>" +
     "<h2>The Keep</h2>" +
-    "<img src='./assets/projects/the-keep.png' width='450' alt='the keep'>" +
+    "<img src='assets/projects/the-keep.png' width='450' alt='the keep'>" +
     "<ul>" + 
     "<li><p>A terminal based adventure inspired by Zork</p></li>" +
     "<li><p>Made with JavaScript and the Node.js runtime</p></li>" +
@@ -39,7 +39,7 @@ const theKeep = (
 const reactChatRoom = (
     "<div class='project'>" +
     "<h2>React Chat Room</h2>" +
-    "<img src='./assets/projects/react-chatroom.png' width='450' alt='chat room'>" +
+    "<img src='assets/projects/react-chatroom.png' width='450' alt='chat room'>" +
     "<ul>" + 
     "<li><p>A full-stack chat room application made with React</p></li>" +
     "<li><p>Made with Express.js, MongoDB/Mongoose ODM and React</p></li>" +
