@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>Cyrus Fullam</title>
+</head>
+<body>
+    <div id="root">
+        <div id="screen">
+            <section class="modal"></section>
+            <nav id="nav-bar">
+                <p id="hd">C:/</p>
+                <a href="/" class="nav-link" id="home"></a>
+                <a href="/about" class="nav-link" id="about">About Me</a>
+                <a href="/projects" class="nav-link" id="projects">Projects</a>
+                <a href="/contact" class="nav-link" id="contact">Contact</a>
+            </nav>
+            <div id="content">
+                <h1>Welcome!</h1>
+                <p>I'm Cyrus Fullam and this is my website</p>
+                <p>to get started select one of the links above</p>
+                <p>...or if you know how to use a terminal [cd] into one</p>
+                <p>Thanks for visiting my site!</p>
+            </div>
+            <div id="output"></div>
+            <span id="cli">
+                <p>></p>
+                <form autocomplete="off" action="/" id="input-form">
+                    <input spellcheck="false" type="text" maxlength="20" id="input">
+                </form>
+            </span>
+        </div>
+        <div id="pc">
+            <div id="power">
+                <button id="on-off">I/O</button>
+                <div class="led" id="off"></div>
+            </div>
+        <div id="cd"></div>
+        </div>
+    </div>
+    <footer id="footer"><p>Created by Cyrus Fullam. © 2023</p></footer>
+    <script src="./scripts/router.js"></script>
+    <script type="module" src="./scripts/index.js"></script>
+    <script type="module" src="./scripts/about.js"></script>
+    <script type="module" src="./scripts/projects.js"></script>
+    <script type="module" src="./scripts/contact.js"></script>
+</body>
+</html>

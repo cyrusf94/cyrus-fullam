@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: rgb(9, 221, 9);
+    text-shadow: 0px 0px 3px rgb(0, 255, 0);
+}
+
+.project::-webkit-scrollbar {
+    width: 15px;
+    border: 1px solid green;
+}
+
+.project::-webkit-scrollbar-track {
+    background-color: rgb(0, 0, 0);
+    box-shadow: inset 0 0 3px rgba(0, 255, 0, 0.5);
+    border-radius: 2px;
+}
+
+.project::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 0, 0);
+    box-shadow: inset 0 0 3px rgba(0, 255, 0, 0.5);
+    border-radius: 2px;
+}
+
+
+
+body {
+    background-color: rgba(0, 0, 0, 0.966);
+    font-family: monospace;
+}
+
+#footer {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+    font-size: 1.25em;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+    border-top: 5px solid rgba(34, 34, 34, 0.815);
+    border-bottom: 5px solid rgba(77, 77, 77, 0.815);
+    border-left: 5px solid rgba(37, 37, 37, 0.815);
+    border-right: 5px solid rgba(37, 37, 37, 0.815);
+    outline: 45px solid rgb(155, 145, 110);
+    width: 680px;
+    height: 560px;
+    min-width: 680px;
+    min-height: 560px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: left;
+    height: 400px;
+    line-height: 1.75;
+    overflow-y: auto;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    background-color: rgb(0, 0, 0);
+    overflow-y: auto;
+}
+
+#project-link {
+    margin: 5px;
+    font-size: 1.25em;
+}
+
+#resume {
+    width: 100px;
+    filter:brightness(60%);
+}
+
+#resume:hover {
+    filter: brightness(75%);
+}
+
+img {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.modal {
+    position: absolute;
+    width: 680px;
+    height: 560px;
+    background-color: black;
+    visibility: visible;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+#cli {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    gap: 5px;
+    color: white;
+    width: 300px;
+}
+
+#input {
+    background-color: black;
+    color: green;
+    border: none;
+    outline: none;
+    text-shadow: 0px 0px 1.5px rgb(0, 255, 0);
+}
+
+#output {
+    overflow: hidden;
+    margin-left: 15px;
+    height: 50px;
+}
+
+
+#pc {
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(155, 145, 110);
+    height: 200px;
+    width: 780px;
+}
+
+#power {
+    display: flex;
+    margin-top: 75px;
+    gap: 15px;
+}
+
+#on-off {
+    width: 75px;
+    height: 40px;
+    background-color: rgb(185, 185, 138);
+    color: black;
+    font-weight: bold;
+    font-size: 1em;
+    border:2px solid black;
+    box-shadow: 0px 0px 3px .5px black;
+    text-shadow: none;
+    cursor: pointer;
+}
+
+#off {
+    background-color: rgb(255, 0, 0);
+    width: 10px;
+    height: 10px;
+    margin-top: 10px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 3px 3px rgba(253, 0, 0, 0.692);
+}
+
+#on {
+    background-color: rgb(0, 255, 0);
+    width: 10px;
+    height: 10px;
+    margin-top: 10px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 3px 4px rgba(0, 255, 0, 0.356);
+}
+
+#cd {
+    width: 300px;
+    height: 10px;
+    background-color: black;
+}
+
+#nav-bar {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    color: white;
+    gap: 25px;
+    font-size: 1em;
+    margin: 15px;
+}
+
+.nav-link {
+    cursor: pointer;
+}
