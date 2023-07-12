@@ -41,7 +41,7 @@ const reactChatRoom = (
     "<h2>React Chat Room</h2>" +
     "<img src='assets/projects/react-chatroom.png' width='450' alt='chat room'>" +
     "<ul>" + 
-    "<li><p>A full-stack chat room application made with React</p></li>" +
+    "<li><p>A full-stack chat room application</p></li>" +
     "<li><p>Made with Express.js, MongoDB/Mongoose ODM and React</p></li>" +
     "<li><p>Built the backend and all REST API end points using Express.js</p></li>" +
     "<li><p>The client side site was built using the React framework</p></li>" +  
