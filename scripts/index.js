@@ -52,7 +52,7 @@ inputValue.addEventListener('submit', e => {
         case command === "hello" :
             output.innerHTML = "Hello User!"
             break;
-        case command === "home" :
+        case command === "cd home" :
             home.click()
             break;
         case command === "cd about me" :
