@@ -28,7 +28,7 @@ power.addEventListener("click", e => {
         modal.style = "animation: 1s fadeIn forwards;"
         led.setAttribute("id", "off")
         setTimeout(() => {
-            home.click()
+            content.innerHTML = "";
         }, 2000)
     }
 })
