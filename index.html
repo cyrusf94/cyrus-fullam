@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" media="screen and (max-width: 700px)" href="styles/mobile.css" />
+    <link rel="stylesheet" media="screen and (min-width: 700px)" href="styles/index.css">
     <title>Cyrus Fullam</title>
 </head>
 <body>
@@ -22,6 +23,7 @@
                 <p>I'm Cyrus Fullam and this is my website</p>
                 <p>to get started select one of the links above</p>
                 <p>...or if you know how to use a terminal [cd] into one</p>
+                <p>(on desktop view)</p>
                 <p>Thanks for visiting my site!</p>
             </div>
             <div id="output"></div>
@@ -37,10 +39,13 @@
                 <button id="on-off">I/O</button>
                 <div class="led" id="off"></div>
             </div>
-        <div id="cd"></div>
+        <div id="floppy"></div>
         </div>
     </div>
-    <footer id="footer"><p>Created by Cyrus Fullam. © 2023</p></footer>
+    <footer id="footer">
+        <p>Created by Cyrus Fullam. © 2023</p>
+        <p>Site best enjoyed on desktop view</p>
+    </footer>
     <script type="module" src="scripts/index.js"></script>
     <script type="module" src="scripts/about.js"></script>
     <script type="module" src="scripts/projects.js"></script>

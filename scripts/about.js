@@ -3,7 +3,7 @@ const content = document.getElementById("content");
 const output = document.getElementById("output");
 
 const img = "<img src='./assets/cyrus-fullam.jpeg' alt='cyrus' width='200'><br>"
-const intro = "<h1>Hi i'm Cyrus,</h1><br>"
+const intro = "<h1>Hi I'm Cyrus,</h1><br>"
 const aboutMe = (
     "<p> &emsp; I was a mechanic for 7+ years but decided to make the switch to software development.</p>" +
     "<p>I have always been drawn to tech and have a strong curiosity for how things work.</P>" +

@@ -40,6 +40,7 @@ home.addEventListener("click", e => {
         "<p>I'm Cyrus Fullam and this is my website</p>" +
         "<p>to get started select one of the links above</p>" +
         "<p>...or if you know how to use a terminal [cd] into one</p>" +
+        "<p>(on desktop view)</p>" +
         "<p>Thanks for visiting my site!</p>"
     )
 })
