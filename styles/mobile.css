@@ -64,6 +64,7 @@ body {
 
 #resume {
     width: 100px;
+    height: 150px;
     filter:brightness(60%);
 }
 
