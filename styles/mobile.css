@@ -205,4 +205,5 @@ display: none;
 
 .nav-link {
     cursor: pointer;
+    outline: none;
 }
