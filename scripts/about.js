@@ -18,7 +18,6 @@ const aboutMe = (
 
 
 about.addEventListener("click", e => {
-    e.preventDefault();
     output.innerHTML = "";
     content.innerHTML = (
         img + intro + aboutMe

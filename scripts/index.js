@@ -21,6 +21,7 @@ power.addEventListener("click", e => {
         on = true;
         modal.style = "animation: 5s fadeOut forwards;"
         led.setAttribute("id", "on")
+        home.click()
         input.focus()
     } else if (on) {
         on = false;
@@ -33,7 +34,6 @@ power.addEventListener("click", e => {
 })
 
 home.addEventListener("click", e => {
-    e.preventDefault();
     content.innerHTML = "";
     content.innerHTML = (
         "<h1>Welcome!</h1>" +
@@ -71,3 +71,4 @@ inputValue.addEventListener('submit', e => {
         default : output.innerHTML = "I don't know that command";
     }
 })
+

@@ -12,6 +12,5 @@ const resume = (
 )
 
 contact.addEventListener("click", e => {
-    e.preventDefault();
     content.innerHTML = contactMe + contactMessage + linkedin + github + resume;
 })
