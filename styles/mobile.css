@@ -163,6 +163,7 @@ display: none;
 
 #power {
     display: flex;
+    padding: 5px;
     gap: 10px;
 }
 
