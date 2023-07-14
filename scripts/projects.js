@@ -66,28 +66,21 @@ const capstone = (
     "</div>"
 )
 
-// rendered project list
-const projectList = (
-    "<div id='project-list'>" +
-    guessTheNumber +
-    theKeep +
-    reactChatRoom +
-    capstone +
-    "</div>"
-)
-
 
 projects.addEventListener("click", e => {
     output.innerHTML = "";
     content.innerHTML = "";
     content.innerHTML = projectMessage
+    let projectList = document.createElement("div")
+    projectList.id = "project-list"
+    content.appendChild(projectList);
     allProjects.forEach(p => {
         let proLink = document.createElement('a');
         proLink.innerHTML = p;
         proLink.id = "project-link"
         let pName = p.replace(/ /g, "-");
         proLink.href = `#${pName}`
-        content.appendChild(proLink);
+        projectList.appendChild(proLink)
         proLink.addEventListener("click", e => {
             console.log(e.target.innerHTML)
             render(e.target.innerHTML);

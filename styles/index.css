@@ -114,6 +114,12 @@ body {
     font-size: 1.25em;
 }
 
+#project-list {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.25em;
+}
+
 #resume {
     width: 100px;
     margin-top: 10px;

@@ -37,6 +37,7 @@ body {
 
 #root {
     display: flex;
+    flex-direction: column;
 }
 
 #screen {
@@ -75,6 +76,16 @@ body {
     margin-bottom: 10px;
     margin-right: 15px;
     background-color: rgb(0, 0, 0);
+}
+
+#project-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+#project-list a {
+    font-size: 1.5em;
 }
 
 .project img {
@@ -148,7 +159,7 @@ display: none;
     background-color: rgb(155, 145, 110);
     margin-left: -25px;
     margin-right: -25px;
-    height: 10vh;
+    height: fit-content;
     width: 100%;
 }
 
