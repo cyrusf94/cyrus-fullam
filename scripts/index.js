@@ -56,7 +56,7 @@ inputValue.addEventListener('submit', e => {
         case command === "cd home" :
             home.click()
             break;
-        case command === "cd about me" :
+        case command === "cd about" :
             about.click()
             break;
         case command === "cd projects" :
