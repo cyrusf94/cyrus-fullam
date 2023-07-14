@@ -18,7 +18,8 @@ body {
     outline: 20px solid rgb(155, 145, 110);
     margin: 20px;
     margin-bottom: 10vh;
-    height: 85vh;
+    height: 80vh;
+    object-fit: fill;
     overflow-y: auto;
 }
 
@@ -38,7 +39,6 @@ body {
 
 #root {
     display: flex;
-    position: relative;
     flex-direction: column;
 }
 
@@ -56,7 +56,7 @@ body {
     align-items: center;
     margin-left: 5px;
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     font-size: 1.25em;
     line-height: 1.75;
     width: fit-content;
@@ -117,7 +117,7 @@ img {
     height: 120%;
     width: 100vw;
     background-color: black;
-    visibility: visible;
+    visibility: hidden;
 }
 
 @keyframes fadeOut {
@@ -160,7 +160,7 @@ display: none;
     flex-direction: row;
     background-color: rgb(155, 145, 110);
     margin-left: -25px;
-    height: 10vh;
+    height: 15vh;
     width: 100%;
 }
 
