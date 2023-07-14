@@ -17,7 +17,6 @@ body {
     border-right: 5px solid rgba(37, 37, 37, 0.815);
     outline: 20px solid rgb(155, 145, 110);
     margin: 20px;
-    margin-top: 10vh;
     margin-bottom: 10vh;
     height: 85vh;
     overflow-y: auto;
@@ -161,7 +160,6 @@ display: none;
     flex-direction: row;
     background-color: rgb(155, 145, 110);
     margin-left: -25px;
-    margin-top: 40px;
     height: 10vh;
     width: 100%;
 }
