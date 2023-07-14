@@ -57,6 +57,7 @@ body {
 
 #root {
     display: flex;
+    flex-shrink: inherit;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -256,5 +257,6 @@ img {
 
 .nav-link {
     cursor: pointer;
+    outline: none;
 }
 

@@ -19,7 +19,7 @@ power.addEventListener("click", e => {
     e.preventDefault();
     if(!on) {
         on = true;
-        modal.style = "animation: 2.5s fadeOut forwards;"
+        modal.style = "animation: 2s fadeOut forwards;"
         led.setAttribute("id", "on")
         home.click()
         input.focus()
@@ -29,7 +29,7 @@ power.addEventListener("click", e => {
         led.setAttribute("id", "off")
         setTimeout(() => {
             content.innerHTML = "";
-        }, 2000)
+        }, 1500)
     }
 })
 

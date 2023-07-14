@@ -158,8 +158,8 @@ display: none;
     flex-direction: row;
     background-color: rgb(155, 145, 110);
     margin-left: -25px;
-    margin-right: -25px;
-    height: fit-content;
+    margin-top: 40px;
+    height: 10vh;
     width: 100%;
 }
 
