@@ -6,6 +6,10 @@
     overflow: hidden;
 }
 
+body {
+    background-color: black;
+}
+
 #footer {
     display: none;
 }
@@ -48,6 +52,7 @@
     justify-content: center;
     align-items: center;
     margin: 5px;
+    padding-bottom: 50px;
     font-size: 1.25em;
     line-height: 1.75;
     width: fit-content;
