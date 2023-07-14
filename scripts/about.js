@@ -27,11 +27,9 @@ const skills = (
     "<li>- Postman</li>" +
     "<li>- MongoDB</li>" +
     "<li>- Mongoose ODM</li>" +
-    "<li>- Git/GitHub</li>" +
-    "<br>" +
-    "<br>" +
-    "<br>" +
-    "<br>" +
+    "<li>- Git/GitHub</li><br>" +
+    "<p></p><br>" +
+    "<p></p><br>" +
     "</ul>" +
     "</div>"
 )
