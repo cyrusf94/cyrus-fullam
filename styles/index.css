@@ -134,7 +134,7 @@ body {
 img {
     border: 1px solid black;
     border-radius: 5px;
-    margin-top: 325px;
+    margin-top: 400px;
 }
 
 .modal {
@@ -142,7 +142,7 @@ img {
     width: 680px;
     height: 560px;
     background-color: black;
-    visibility: visible;
+    visibility: hidden;
 }
 
 @keyframes fadeOut {
