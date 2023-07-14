@@ -7,6 +7,7 @@
 }
 
 body {
+    position: sticky;
     background-color: rgb(0, 0, 0);
     font-family: monospace;
     font-size: 1.5;
@@ -16,18 +17,22 @@ body {
     border-right: 5px solid rgba(37, 37, 37, 0.815);
     outline: 20px solid rgb(155, 145, 110);
     margin: 20px;
-    height: 700px;
-    overflow-y: scroll;
-
+    height: 85vh;
+    overflow-y: auto;
 }
 
 #footer {
+    display: none;
+}
+
+#mobile-footer {
     display: flex;
-    text-align: left;
     position: absolute;
     bottom: 0;
-    margin: 10px;
-    font-size: 1.25em;
+    right: 0;
+    padding: 5px;
+    height: fit-content;
+    width: fit-content;
 }
 
 #root {
@@ -46,12 +51,19 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: left;
     margin-left: 5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
     font-size: 1.25em;
-    margin-bottom: 200px;
     line-height: 1.75;
-    overflow: auto;
+    width: fit-content;
+}
+
+#skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 100%;
 }
 
 .project {
@@ -89,8 +101,8 @@ img {
 
 .modal {
     position: absolute;
-    width: 85%;
-    height: 700px;
+    height: 120%;
+    width: 100vw;
     background-color: black;
     visibility: visible;
 }
@@ -129,28 +141,28 @@ display: none;
 
 #pc {
     display: flex;
-    flex-wrap: wrap;
-    position: absolute;
+    position: fixed;
     bottom: 0;
-    justify-content: center;
     align-items: center;
     flex-direction: row;
     background-color: rgb(155, 145, 110);
-    overflow: auto;
     margin-left: -25px;
-    height: 195px;
+    margin-right: -25px;
+    height: 10vh;
     width: 100%;
 }
 
 #power {
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    gap: 10px;
+    padding: 20px;
 }
 
 #power button {
-    width: 100px;
-    height: 75px;
+    width: 6em;
+    height: 3em;
+    margin-bottom: 10px;
 }
 
 #on-off {
@@ -185,9 +197,9 @@ display: none;
 }
 
 #floppy {
-    width: 300px;
+    width: 50vw;
     height: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 1em;
     margin-left: 10px;
     background-color: black;
 }
@@ -196,7 +208,6 @@ display: none;
     display: flex;
     flex-direction: row;
     width: fit-content;
-    color: white;
     gap: 10px;
     font-size: 1.25em;
     margin: 15px;

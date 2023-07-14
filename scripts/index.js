@@ -19,7 +19,7 @@ power.addEventListener("click", e => {
     e.preventDefault();
     if(!on) {
         on = true;
-        modal.style = "animation: 5s fadeOut forwards;"
+        modal.style = "animation: 2.5s fadeOut forwards;"
         led.setAttribute("id", "on")
         home.click()
         input.focus()
@@ -37,10 +37,10 @@ home.addEventListener("click", e => {
     content.innerHTML = "";
     content.innerHTML = (
         "<h1>Welcome!</h1>" +
-        "<p>I'm Cyrus Fullam and this is my website</p>" +
-        "<p>to get started select one of the links above</p>" +
-        "<p>...or if you know how to use a terminal [cd] into one</p>" +
-        "<p>(on desktop view)</p>" +
+        "<p> &emsp; I'm Cyrus Fullam and this is my website." +
+        "  To get started select one of the links above.</p><br>" +
+        "...or if you know how to use a terminal [cd] into one" +
+        " (on desktop view)</p><br>" +
         "<p>Thanks for visiting my site!</p>"
     )
 })
