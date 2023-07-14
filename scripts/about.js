@@ -28,6 +28,10 @@ const skills = (
     "<li>- MongoDB</li>" +
     "<li>- Mongoose ODM</li>" +
     "<li>- Git/GitHub</li>" +
+    "<br>" +
+    "<br>" +
+    "<br>" +
+    "<br>" +
     "</ul>" +
     "</div>"
 )
