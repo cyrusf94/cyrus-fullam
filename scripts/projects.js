@@ -5,7 +5,7 @@ const output = document.getElementById("output");
 
 const projectMessage = "<h1>My Work</h1><br>"
 
-const allProjects = ["Guess The Number", "The Keep", "React Chat Room", "Capstone"]
+const allProjects = ["Guess The Number", "The Keep", "React Chat Room", "Gamer Guild"]
 
 // projects
 const guessTheNumber = (
@@ -51,13 +51,13 @@ const reactChatRoom = (
     "</div>"
 )
 
-const capstone = (
+const gamerGuild = (
     "<div class='project'>" +
-    "<h2>Capstone</h2>" +
+    "<h2>Gamer Guild</h2>" +
     "<img src='https://w7.pngwing.com/pngs/914/758/png-transparent-github-social-media-computer-icons-logo-android-github-logo-computer-wallpaper-banner-thumbnail.png' width='400' alt='capstone'>" +
     "<ul>" + 
     "<li><p>Coming Soon!</p></li><br>" +
-    "<li><p></p></li><br>" +
+    "<li><p>A full-stack forum application acting as a hub for gamers</p></li><br>" +
     "<li><p></p></li><br>" +
     "<li><p></p></li><br>" +  
     "</ul>" +
@@ -99,8 +99,8 @@ function render(project) {
         case project === "React Chat Room" :
             content.innerHTML = reactChatRoom;
             break;
-        case project === "Capstone" :
-            content.innerHTML = capstone;
+        case project === "Gamer Guild" :
+            content.innerHTML = gamerGuild;
             break;
         default : null;
     }
