@@ -11,7 +11,7 @@ const allProjects = ["Guess The Number", "The Keep", "React Chat Room", "Gamer G
 const guessTheNumber = (
     "<div class='project'>" +
     "<h2>Guess the Number</h2>" +
-    "<img src='assets/projects/guess-the-number.png' width='600' alt='guess the number'>" +
+    "<img src='assets/projects/guess-the-number.png' width='600' alt='Guess the Number'>" +
     "<ul>" + 
     "<li><p>A 0-100 guessing game that pits the computer against the player or vice versa </p></li><br>" +
     "<li><p>Made with JavaScript and the Node.js runtime</p></li><br>" +
@@ -25,7 +25,7 @@ const guessTheNumber = (
 const theKeep = (
     "<div class='project'>" +
     "<h2>The Keep</h2>" +
-    "<img src='assets/projects/the-keep.png' width='450' alt='the keep'>" +
+    "<img src='assets/projects/the-keep.png' width='450' alt='The Keep'>" +
     "<ul>" + 
     "<li><p>A terminal based adventure inspired by Zork</p></li><br>" +
     "<li><p>Made with JavaScript and the Node.js runtime</p></li><br>" +
@@ -39,7 +39,7 @@ const theKeep = (
 const reactChatRoom = (
     "<div class='project'>" +
     "<h2>React Chat Room</h2>" +
-    "<img src='assets/projects/react-chatroom.png' width='450' alt='chat room'>" +
+    "<img src='assets/projects/react-chatroom.png' width='450' alt='Chat Room'>" +
     "<ul>" + 
     "<li><p>A full-stack chat room application</p></li><br>" +
     "<li><p>Made with Express.js, MongoDB/Mongoose ODM and React</p></li><br>" +
@@ -54,7 +54,7 @@ const reactChatRoom = (
 const gamerGuild = (
     "<div class='project'>" +
     "<h2>Gamer Guild</h2>" +
-    "<img src='https://w7.pngwing.com/pngs/914/758/png-transparent-github-social-media-computer-icons-logo-android-github-logo-computer-wallpaper-banner-thumbnail.png' width='400' alt='capstone'>" +
+    "<img src='https://w7.pngwing.com/pngs/914/758/png-transparent-github-social-media-computer-icons-logo-android-github-logo-computer-wallpaper-banner-thumbnail.png' width='400' alt='Gamer Guild'>" +
     "<ul>" + 
     "<li><p>Coming Soon!</p></li><br>" +
     "<li><p>A full-stack forum application acting as a hub for gamers</p></li><br>" +

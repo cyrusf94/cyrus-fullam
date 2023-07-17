@@ -1,16 +1,16 @@
 // elements
 const power = document.getElementById("on-off");
-const led = document.getElementById("off")
+const led = document.getElementById("off");
 const screen = document.getElementById("screen");
-const content = document.getElementById("content")
-const modal = document.querySelector(".modal")
-const input = document.getElementById("input")
-const inputValue = document.getElementById("input-form")
-const output = document.getElementById("output")
-const home = document.getElementById("home")
-const about = document.getElementById("about")
-const projects = document.getElementById("projects")
-const contact = document.getElementById("contact")
+const content = document.getElementById("content");
+const modal = document.querySelector(".modal");
+const input = document.getElementById("input");
+const inputValue = document.getElementById("input-form");
+const output = document.getElementById("output");
+const home = document.getElementById("home");
+const about = document.getElementById("about");
+const projects = document.getElementById("projects");
+const contact = document.getElementById("contact");
 
 // power light 
 let on = false;
@@ -21,7 +21,7 @@ power.addEventListener("click", e => {
         on = true;
         modal.style = "animation: 2s fadeOut forwards;"
         led.setAttribute("id", "on")
-        home.click()
+        home.click();
     } else if (on) {
         on = false;
         modal.style = "animation: 1s fadeIn forwards;"
@@ -53,16 +53,16 @@ inputValue.addEventListener('submit', e => {
             output.innerHTML = "Hello User!"
             break;
         case command === "cd home" :
-            home.click()
+            home.click();
             break;
         case command === "cd about" :
-            about.click()
+            about.click();
             break;
         case command === "cd projects" :
-            projects.click()
+            projects.click();
             break;
         case command === "cd contact" :
-            contact.click()
+            contact.click();
             break;
         case command.includes("rm") :
             output.innerHTML = "PLEASE BE CAREFUL!"

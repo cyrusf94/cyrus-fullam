@@ -2,7 +2,7 @@ const about = document.getElementById("about");
 const content = document.getElementById("content");
 const output = document.getElementById("output");
 
-const img = "<br><img src='./assets/cyrus-fullam.jpeg' alt='cyrus' width='200'><br>"
+const img = "<br><img src='./assets/cyrus-fullam.jpeg' alt='Cyrus Fullam image' width='200'><br>"
 const intro = "<h1>Hi I'm Cyrus,</h1><h3>Full-Stack Developer</h3><br>"
 const aboutMe = (
     "<p> &emsp; I was a mechanic for 7+ years but decided to make the switch to software development." +
