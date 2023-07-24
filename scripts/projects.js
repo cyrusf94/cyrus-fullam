@@ -18,7 +18,7 @@ const theKeep = (
     "<li><p>Further understanding of asychronous functions and js Classes</p></li><br>" + 
     "</ul>" +
     "<p>check the code out on GitHub:</p>" +
-    "<a href='https://github.com/burlingtoncodeacademy-students/zorkington-cyrusf94.git'>GitHub/The-Keep/Zorkington</a>" +
+    "<a href='https://github.com/cyrusf94/zorkington-the-keep.git</a>" +
     "</div>"
 )
 
@@ -33,7 +33,7 @@ const reactChatRoom = (
     "<li><p>The client side site was built using the React framework</p></li><br>" +  
     "</ul>" +
     "<p>check the code out on GitHub:</p>" +
-    "<a href='https://github.com/burlingtoncodeacademy-students/react-chat-austin-cyrus.git'>GitHub/React-Chatroom</a>" +
+    "<a href='https://github.com/cyrusf94/react-chatroom.git'>GitHub/React-Chatroom</a>" +
     "</div>"
 )
 
@@ -48,7 +48,7 @@ const gamerGuild = (
     "<li><p></p></li><br>" +  
     "</ul>" +
     "<p>check the code out on GitHub:</p>" +
-    "<a href='https://github.com/awyrocki/Gamer-Guild.git'>GitHub/Cyrus</a>" +
+    "<a href='https://github.com/awyrocki/Gamer-Guild.git'>GitHub/Gamer-Guild</a>" +
     "</div>"
 )
 
