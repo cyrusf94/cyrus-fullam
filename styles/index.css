@@ -141,6 +141,10 @@ body {
     filter:brightness(60%);
 }
 
+#resume-link {
+    width: fit-content;
+}
+
 #resume:hover {
     filter: brightness(75%);
 }

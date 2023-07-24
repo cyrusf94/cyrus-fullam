@@ -5,23 +5,9 @@ const output = document.getElementById("output");
 
 const projectMessage = "<h1>My Work</h1><br>"
 
-const allProjects = ["Guess The Number", "The Keep", "React Chat Room", "Gamer Guild"]
+const allProjects = ["The Keep", "React Chat Room", "Gamer Guild"]
 
 // projects
-const guessTheNumber = (
-    "<div class='project'>" +
-    "<h2>Guess the Number</h2>" +
-    "<img src='assets/projects/guess-the-number.png' width='600' alt='Guess the Number'>" +
-    "<ul>" + 
-    "<li><p>A 0-100 guessing game that pits the computer against the player or vice versa </p></li><br>" +
-    "<li><p>Made with JavaScript and the Node.js runtime</p></li><br>" +
-    "<li><p>Strengthed my understanding of asyncrhonous functions</p></li><br>" + 
-    "</ul>" +
-    "<p>check the code out on GitHub:</p>" +
-    "<a href='https://github.com/burlingtoncodeacademy-students/guess-the-number-cyrusf94.git'>GitHub/GTN</a>" +
-    "</div>"
-)
-
 const theKeep = (
     "<div class='project'>" +
     "<h2>The Keep</h2>" +
@@ -62,7 +48,7 @@ const gamerGuild = (
     "<li><p></p></li><br>" +  
     "</ul>" +
     "<p>check the code out on GitHub:</p>" +
-    "<a href='https://github.com/cyrusf94'>GitHub/Cyrus</a>" +
+    "<a href='https://github.com/awyrocki/Gamer-Guild.git'>GitHub/Cyrus</a>" +
     "</div>"
 )
 
@@ -90,9 +76,6 @@ projects.addEventListener("click", e => {
 
 function render(project) {
     switch(true) {
-        case project === "Guess The Number" :
-            content.innerHTML = guessTheNumber;
-            break;
         case project === "The Keep" :
             content.innerHTML = theKeep;
             break;

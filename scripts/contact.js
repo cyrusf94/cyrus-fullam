@@ -8,7 +8,7 @@ const linkedin = "<a href='https://www.linkedin.com/in/cyrus-fullam-837564278/'>
 const github = "<a href='https://github.com/cyrusf94'>GitHub</a><br>"
 const resume = (
     "<p>Grab a copy of my resume</p><br>" +
-    "<a href='./assets/cyrus-fullam-resume.pdf' download><img src='./assets/resume-screenshot.png' alt='My Resume' id='resume'></a>"
+    "<a  href='./assets/cyrus-fullam-resume.pdf' download id='resume-link'><img src='./assets/resume-screenshot.png' alt='My Resume' id='resume'></a>"
 )
 
 contact.addEventListener("click", e => {
