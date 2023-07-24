@@ -18,7 +18,7 @@ const theKeep = (
     "<li><p>Further understanding of asychronous functions and js Classes</p></li><br>" + 
     "</ul>" +
     "<p>check the code out on GitHub:</p>" +
-    "<a href='https://github.com/cyrusf94/zorkington-the-keep.git</a>" +
+    "<a href='https://github.com/cyrusf94/zorkington-the-keep.git'>GitHub/Zorkington-The-Keep</a>" +
     "</div>"
 )
 
