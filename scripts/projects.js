@@ -27,10 +27,10 @@ const reactChatRoom = (
     "<h2>React Chat Room</h2>" +
     "<img src='assets/projects/react-chatroom.png' width='450' alt='Chat Room'>" +
     "<ul>" + 
-    "<li><p>A full-stack chat room application</p></li><br>" +
-    "<li><p>Made with Express.js, MongoDB/Mongoose ODM and React</p></li><br>" +
-    "<li><p>Built the backend and all REST API end points using Express.js</p></li><br>" +
-    "<li><p>The client side site was built using the React framework</p></li><br>" +  
+    "<li><p>A chat room application built in the MERN stack</p></li><br>" +
+    "<li><p>All API endpoints created using Express.js </p></li><br>" +
+    "<li><p>Authentication using JWT web tokens</p></li><br>" +
+    "<li><p></p></li><br>" +  
     "</ul>" +
     "<p>check the code out on GitHub:</p>" +
     "<a href='https://github.com/cyrusf94/react-chatroom.git'>GitHub/React-Chatroom</a>" +
@@ -40,12 +40,14 @@ const reactChatRoom = (
 const gamerGuild = (
     "<div class='project'>" +
     "<h2>Gamer Guild</h2>" +
-    "<img src='https://w7.pngwing.com/pngs/914/758/png-transparent-github-social-media-computer-icons-logo-android-github-logo-computer-wallpaper-banner-thumbnail.png' width='400' alt='Gamer Guild'>" +
+    "<img src='/assets/projects/gamer-guild.png' width='400' alt='Gamer Guild'>" +
     "<ul>" + 
-    "<li><p>Coming Soon!</p></li><br>" +
-    "<li><p>A full-stack forum application acting as a hub for gamers</p></li><br>" +
+    "<li><p>A forum application acting as a hub for gamers</p></li><br>" +
+    "<li><p>Built with the MERN stack</p></li><br>" +
+    "<li><p>Ability to link steam account through openID</p></li><br>" +
+    "<li><p>Utilizes access to the Steam API for player summary data</p></li><br>" +   
+    "<li><p>Authentication using JWT web tokens</p></li><br>" +
     "<li><p></p></li><br>" +
-    "<li><p></p></li><br>" +  
     "</ul>" +
     "<p>check the code out on GitHub:</p>" +
     "<a href='https://github.com/awyrocki/Gamer-Guild.git'>GitHub/Gamer-Guild</a>" +

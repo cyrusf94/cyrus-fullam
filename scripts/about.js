@@ -23,6 +23,7 @@ const skills = (
     "<li>- HTML & CSS</li>" +
     "<li>- React</li>" +
     "<li>- Express</li>" +
+    "<li>- Node.js</li>" +
     "<li>- APIs</li>" +
     "<li>- Postman</li>" +
     "<li>- MongoDB</li>" +
