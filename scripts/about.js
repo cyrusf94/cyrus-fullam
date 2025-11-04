@@ -3,7 +3,7 @@ const content = document.getElementById("content");
 const output = document.getElementById("output");
 
 const img = "<br><img src='./assets/cyrus-fullam.jpeg' alt='Cyrus Fullam image' width='200'><br>"
-const intro = "<h1>Hi I'm Cyrus,</h1><h3>Full-Stack Developer</h3><br>"
+const intro = "<h1>Hi I'm Cyrus,</h1><h3>.NET Developer</h3><br>"
 const aboutMe = (
     "<p> &emsp; I was a mechanic for 7+ years but decided to make the switch to software development." +
     "  I have always been drawn to tech and have a strong curiosity for how things work.</P><br>" +
@@ -21,13 +21,13 @@ const skills = (
     "<ul>" +
     "<li>- JavaScript</li>" +
     "<li>- HTML & CSS</li>" +
-    "<li>- React</li>" +
-    "<li>- Express</li>" +
-    "<li>- Node.js</li>" +
-    "<li>- APIs</li>" +
-    "<li>- Postman</li>" +
-    "<li>- MongoDB</li>" +
-    "<li>- Mongoose ODM</li>" +
+    "<li>- C#</li>" +
+    "<li>- SQL/SSMS</li>" +
+    "<li>- .NET</li>" +
+    "<li>- WPF</li>" +
+    "<li>- Blazor</li>" +
+    "<li>- WebForms</li>" +
+    "<li>- IIS</li>" +
     "<li>- Git/GitHub</li><br>" +
     "<p></p><br>" +
     "<p></p><br>" +

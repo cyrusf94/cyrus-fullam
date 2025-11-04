@@ -5,37 +5,9 @@ const output = document.getElementById("output");
 
 const projectMessage = "<h1>My Work</h1><br>"
 
-const allProjects = ["The Keep", "React Chat Room", "Gamer Guild"]
+const allProjects = ["Gamer Guild"]
 
 // projects
-const theKeep = (
-    "<div class='project'>" +
-    "<h2>The Keep</h2>" +
-    "<img src='assets/projects/the-keep.png' width='450' alt='The Keep'>" +
-    "<ul>" + 
-    "<li><p>A terminal based adventure inspired by Zork</p></li><br>" +
-    "<li><p>Made with JavaScript and the Node.js runtime</p></li><br>" +
-    "<li><p>Further understanding of asychronous functions and js Classes</p></li><br>" + 
-    "</ul>" +
-    "<p>check the code out on GitHub:</p>" +
-    "<a href='https://github.com/cyrusf94/zorkington-the-keep.git'>GitHub/Zorkington-The-Keep</a>" +
-    "</div>"
-)
-
-const reactChatRoom = (
-    "<div class='project'>" +
-    "<h2>React Chat Room</h2>" +
-    "<img src='assets/projects/react-chatroom.png' width='450' alt='Chat Room'>" +
-    "<ul>" + 
-    "<li><p>A chat room application built in the MERN stack</p></li><br>" +
-    "<li><p>All API endpoints created using Express.js </p></li><br>" +
-    "<li><p>Authentication using JWT web tokens</p></li><br>" +
-    "<li><p></p></li><br>" +  
-    "</ul>" +
-    "<p>check the code out on GitHub:</p>" +
-    "<a href='https://github.com/cyrusf94/react-chatroom.git'>GitHub/React-Chatroom</a>" +
-    "</div>"
-)
 
 const gamerGuild = (
     "<div class='project'>" +
